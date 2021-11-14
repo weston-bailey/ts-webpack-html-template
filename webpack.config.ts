@@ -35,8 +35,8 @@ module.exports = {
       },
       // defines how to use babel
       {
-      // js or jsx 
-        test: /\.(js|jsx|ts)$/,
+      // oh, how I love the smell of regex in the morning
+        test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",

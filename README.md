@@ -18,7 +18,7 @@ This is template code to serve up a vanilla html website using node.js and webpa
 
 `npm run start`
 
-> builds the `src` directory to the `dist` directory and serves on `port 8080`
+> builds the `src` directory to the `dist` directory and serves on `port 3000`
 
 `npm run build` 
 

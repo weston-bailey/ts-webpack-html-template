@@ -1,5 +1,5 @@
 // modules can be used 
-const { hello } = require('./module')
+import hello from './module'
 // css file just needs to be required in the main js
 require('../styles/index.css')
 

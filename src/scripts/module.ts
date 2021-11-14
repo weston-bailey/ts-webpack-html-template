@@ -1,7 +1,5 @@
-function hello() {
+function hello (): string {
   return 'hello from a module'
 }
 
-module.exports = {
- hello
-}
+export default hello

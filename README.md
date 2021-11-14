@@ -1,6 +1,6 @@
 # 📦  TypeScript Webpack-Babel Vanilla Html Boilerplate
 
-This is template code to serve up a vanilla html website using node.js and webpack and babel.  The advantage being modules and all nodejs features are easily supported and are transpiled to vanilla js. Express is used to serve the static build files.
+This is template code to serve up a vanilla html website using node.js and webpack, babel, and typeScript.  The advantage being modules, typeScript, and all nodejs features are easily supported and are transpiled to vanilla js. 
 
 ## Getting started
 
@@ -52,5 +52,8 @@ This is template code to serve up a vanilla html website using node.js and webpa
 
 
 * the port that the dev server runs on can be changed in the `package.json` start script
-
+* `index.html` is the only html page the wabpack builds, so it is assumed that this will the be boilerplate for a SPA 
+  
 ## Todos
+
+* automate adding addition html files

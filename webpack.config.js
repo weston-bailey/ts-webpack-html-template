@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
   // the main index.js file
-  entry: "./src/scripts/index.js",
+  entry: "./src/scripts/index.ts",
   // can be changed to production for deploy builds
   mode: "development",
   // where to put the webpacked javascript (inside the ./dist is assumed)
@@ -36,7 +36,7 @@ module.exports = {
       // defines how to use babel
       {
       // js or jsx 
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx|ts)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -46,6 +46,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['*', '.js']
+    extensions: ['*', '.js', '.ts']
   }
 }

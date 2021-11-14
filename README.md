@@ -1,6 +1,6 @@
-# 📦  TypeScript Webpack-Babel Vanilla Html Boilerplate
+# 📦 TypeScript WebpacklVanilla Html Boilerplate
 
-This is template code to serve up a vanilla html website using node.js and webpack, babel, and typeScript.  The advantage being modules, typeScript, and all nodejs features are easily supported and are transpiled to vanilla js. 
+This is template code to serve up a vanilla html website using node.js and webpack, and typeScript.  The advantage being modules, typeScript, and all nodejs features are easily supported and are transpiled to vanilla js. 
 
 ## Getting started
 
@@ -39,7 +39,6 @@ This is template code to serve up a vanilla html website using node.js and webpa
 * [webpack-html-plugin](https://webpack.js.org/plugins/html-webpack-plugin/) -- webpack plugin for building vanilla html sites
 * [css-loader (webpack)](https://webpack.js.org/loaders/css-loader/) -- webpack plugin for loading vanilla css
 * [style-loader (webpack)](https://webpack.js.org/loaders/style-loader/) -- webpack plugin for loading vanilla css
-* [babel](https://babeljs.io/) -- complies the js to ECMAscript 5
 * [nodemon](https://www.npmjs.com/package/nodemon) -- file watch utility that re-runs scripts when files change
 * [express](https://expressjs.com/) -- to serve the bundled static files from the `./dist` directory
 * [mocha](https://mochajs.org/) -- for running unit tests
@@ -56,4 +55,3 @@ This is template code to serve up a vanilla html website using node.js and webpa
 ## Todos
 
 * automate adding addition html files
-* I am kind of wondering if it is a moot point to use typescript and babel together

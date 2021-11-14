@@ -1,7 +1,8 @@
-const chai = require('chai')
-const assert = chai.assert
-const expect = chai.expect
-const { hello } = require('../src/scripts/module')
+import { 
+  assert, 
+  expect 
+} from 'chai'
+import hello  from '../src/scripts/module'
 
 describe('hello world module', () => {
   const helloWorld = hello()

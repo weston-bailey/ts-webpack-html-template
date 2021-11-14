@@ -7,7 +7,7 @@ This is template code to serve up a vanilla html website using node.js and webpa
 * fork and clone this repo
 * cd into the directory and run `npm i` to download the required packages
 * use `npm run start` to build and serve the application 
-* Navigate to `localhost:3000` to see the site
+* Navigate to `localhost:8080` to see the site
 * use `npm run test-watch ./tests/module.test.js` to run the unit tests
   
 > `./src` contains dev code and the output of webpack can be found in `./dist`

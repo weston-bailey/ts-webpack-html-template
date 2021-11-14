@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha -r ts-node/register",
     "test-all": "npm run test */*.test.ts",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --port 3000",
     "build": "webpack --mode production"
   },
   "keywords": [],

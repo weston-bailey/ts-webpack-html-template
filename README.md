@@ -7,7 +7,7 @@ This is template code to serve up a vanilla html website using node.js and webpa
 * fork and clone this repo
 * cd into the directory and run `npm i` to download the required packages
 * use `npm run start` to build and serve the application 
-* Navigate to `localhost:8080` to see the site
+* Navigate to `localhost:3000` to see the site
 * use `npm run test-watch ./tests/module.test.js` to run the unit tests
   
 > `./src` contains dev code and the output of webpack can be found in `./dist`
@@ -28,10 +28,6 @@ This is template code to serve up a vanilla html website using node.js and webpa
 
 > runs any tests found in the file
 
-`npm run test-watch < file name >` 
-
-> runs any tests found in the file and reruns with nodemon on file changes
-
 `npm run test-all` 
 
 > runs all tests found with the filenameing convention `fileName.test.extension`
@@ -49,11 +45,12 @@ This is template code to serve up a vanilla html website using node.js and webpa
 * [mocha](https://mochajs.org/) -- for running unit tests
 * [chai](https://www.chaijs.com/) -- assertion library for testing
 * [supertest](https://www.npmjs.com/package/supertest) -- used for testing express routes
+* [typescript](https://www.npmjs.com/package/typescript)
+* [ts-node](https://www.npmjs.com/package/ts-node)
 
 ## Notes
 
-none right now 
+
+* the port that the dev server runs on can be changed in the `package.json` start script
 
 ## Todos
-
-* update tests for typescript

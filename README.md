@@ -1,4 +1,4 @@
-# 📦 Webpack-Babel Vanilla Html Boilerplate
+# 📦  TypeScript Webpack-Babel Vanilla Html Boilerplate
 
 This is template code to serve up a vanilla html website using node.js and webpack and babel.  The advantage being modules and all nodejs features are easily supported and are transpiled to vanilla js. Express is used to serve the static build files.
 
@@ -6,7 +6,7 @@ This is template code to serve up a vanilla html website using node.js and webpa
 
 * fork and clone this repo
 * cd into the directory and run `npm i` to download the required packages
-* use `npm run dev` to build and serve the application *NOTE: you will need re-run `npm run dev` to see your changes reflected in the browser*
+* use `npm run start` to build and serve the application 
 * Navigate to `localhost:3000` to see the site
 * use `npm run test-watch ./tests/module.test.js` to run the unit tests
   
@@ -16,13 +16,9 @@ This is template code to serve up a vanilla html website using node.js and webpa
 
 #### The following scripts can be run from the `package.json`
 
-`npm run dev`
-
-> runs a development build and serves the application on `localhost:3000` using the express server found in `./index.js`
-
 `npm run start`
 
-> uses `nodemon` to rebuild the application on the on file changes
+> builds the `src` directory to the `dist` directory and serves on `port 8080`
 
 `npm run build` 
 
@@ -60,5 +56,4 @@ none right now
 
 ## Todos
 
-* write a script to both watch and serve, so the project can be rebuilt on save
-* add testing to the express server
+* update tests for typescript

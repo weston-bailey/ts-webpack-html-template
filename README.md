@@ -1,4 +1,4 @@
-# 📦 TypeScript WebpacklVanilla Html Boilerplate
+# 📦 TypeScript Webpack Vanilla Html Boilerplate
 
 This is template code to serve up a vanilla html website using node.js and webpack, and typeScript.  The advantage being modules, typeScript, and all nodejs features are easily supported and are transpiled to vanilla js. 
 

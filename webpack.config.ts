@@ -33,9 +33,8 @@ module.exports = {
           "css-loader"
         ]
       },
-      // defines how to use babel
       {
-      // oh, how I love the smell of regex in the morning
+        // oh, how I love the smell of regex in the morning
         test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: {

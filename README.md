@@ -54,4 +54,4 @@ This is template code to serve up a vanilla html website using node.js, webpack,
   
 ## Todos
 
-* automate adding addition html files
+* automate adding additional html files.  [Something like this](https://stackoverflow.com/questions/39798095/multiple-html-files-using-webpack) maybe?

@@ -34,13 +34,23 @@ module.exports = {
         ]
       },
       {
-        // oh, how I love the smell of regex in the morning
+        // load all js and ts
         test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "ts-loader",
         },
+      },      
+      // image loader
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
+      // json loader TODO: fix
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
+      }
     ]
   },
   resolve: {
